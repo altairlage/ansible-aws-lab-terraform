@@ -1,16 +1,27 @@
 # Ansible and Semaphore lab deployed by Terraform in AWS
 
 [![Ansible Badge](https://img.shields.io/badge/Ansible-E00?logo=ansible&logoColor=fff&style=for-the-badge "Ansible")](https://www.ansible.com/)
-[![Semaphore CI Badge](https://img.shields.io/badge/Semaphore-E00?logo=ansible&logoColor=fff&style=for-the-badge)](https://semaphoreui.com/)
-[![Semaphore CI Badge](https://img.shields.io/badge/Semaphore%20CI-19A974?logo=semaphoreci&logoColor=fff&style=for-the-badge)](https://semaphoreui.com/)
+[![Semaphore Badge](https://img.shields.io/badge/Semaphore-19A974?logo=ansible&logoColor=fff&style=for-the-badge)](https://semaphoreui.com/)
 [![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=fff&style=for-the-badge)](https://www.terraform.io/)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Amazon Web Services Badge](https://img.shields.io/badge/Amazon%20Web%20Services-232F3E?logo=amazonwebservices&logoColor=fff&style=for-the-badge)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Amazon EC2 Badge](https://img.shields.io/badge/Amazon%20EC2-F90?logo=amazonec2&logoColor=fff&style=for-the-badge)
+![AWS Elastic Load Balancing Badge](https://img.shields.io/badge/AWS%20Elastic%20Load%20Balancing-8C4FFF?logo=awselasticloadbalancing&logoColor=fff&style=for-the-badge)
+![Amazon EKS Badge](https://img.shields.io/badge/Amazon%20EKS-F90?logo=amazoneks&logoColor=fff&style=for-the-badge)
+![Amazon Identity Access Management Badge](https://img.shields.io/badge/Amazon%20Identity%20Access%20Management-DD344C?logo=amazoniam&logoColor=fff&style=for-the-badge)
+![Ubuntu Badge](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=fff&style=for-the-badge)
 
 
-Lab developed to test and perform knowledge share for my team about Ansible, Semaphore, and Terraform. It shows several Terraform deployments in AWS. The intent is to exercise the most common deployments using Terraform.
+Lab developed to test and perform knowledge share for my team about Ansible, Semaphore, and Terraform. The intent is to exercise:
+- The deployment of a basic AWS network, most common deployments using Terraform.
+- The deployment the Ansible controller node in AWS using EC2 via Terraform.
+    - Ansible and other dependencies installed via user data section of the ECS2 resource.
+- The configuration of Semaphore and MySQL as a service in controller node using Docker Compose.
+- The basic configuration of Ansible and Semaphore.
+- The execution of basic Ansible playbooks in the managed nodes.
 
-This project contains several modules. Each module represents a lab, which deploys resources specific infrastructure or services setup. 
+This project contains some Terraform modules for better separation of the resources specific infrastructure or service setup. 
 \
 &nbsp;
 \
