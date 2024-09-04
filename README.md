@@ -1,12 +1,11 @@
 # Ansible and Semaphore lab deployed by Terraform in AWS
 
-![Ansible Badge](https://img.shields.io/badge/Ansible-E00?logo=ansible&logoColor=fff&style=for-the-badge)
-![Semaphore CI Badge](https://img.shields.io/badge/Semaphore%20CI-19A974?logo=semaphoreci&logoColor=fff&style=for-the-badge)
-![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=fff&style=for-the-badge)
+[![Ansible Badge](https://img.shields.io/badge/Ansible-E00?logo=ansible&logoColor=fff&style=for-the-badge "Ansible")](https://www.ansible.com/)
+[![Semaphore CI Badge](https://img.shields.io/badge/Semaphore%20CI-19A974?logo=semaphoreci&logoColor=fff&style=for-the-badge)](https://semaphoreui.com/)
+[![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=fff&style=for-the-badge)](https://www.terraform.io/)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Amazon EC2 Badge](https://img.shields.io/badge/Amazon%20EC2-F90?logo=amazonec2&logoColor=fff&style=for-the-badge)
 
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 Lab developed to test and perform knowledge share for my team about Ansible, Semaphore, and Terraform. It shows several Terraform deployments in AWS. The intent is to exercise the most common deployments using Terraform.
 
