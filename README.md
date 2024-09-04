@@ -1,6 +1,7 @@
 # Ansible and Semaphore lab deployed by Terraform in AWS
 
 [![Ansible Badge](https://img.shields.io/badge/Ansible-E00?logo=ansible&logoColor=fff&style=for-the-badge "Ansible")](https://www.ansible.com/)
+[![Semaphore CI Badge](https://img.shields.io/badge/Semaphore-E00?logo=ansible&logoColor=fff&style=for-the-badge)](https://semaphoreui.com/)
 [![Semaphore CI Badge](https://img.shields.io/badge/Semaphore%20CI-19A974?logo=semaphoreci&logoColor=fff&style=for-the-badge)](https://semaphoreui.com/)
 [![Terraform Badge](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=fff&style=for-the-badge)](https://www.terraform.io/)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
